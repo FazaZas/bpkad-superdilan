@@ -263,7 +263,7 @@ body {
 .navbar .navbar-brand {
 	font-size: 1.1rem;
 	font-weight: 600;
-	color: #24b24e;
+	color: #16a085;
 }
 
 .navbar .navbar-toggler {
@@ -292,11 +292,11 @@ body {
 	font-size: 0.85rem;
 	font-weight: 400;
 	text-transform: capitalize;
-	color: #24b24e;
+	color: #16a085;
 }
 
 .navbar-nav .nav-item .nav-link {
-	color: #24b24e;
+	color: #16a085;
 	font-weight: 500;
 }
 
@@ -323,11 +323,11 @@ body {
 	}
 
 	.nav-white .navbar-brand {
-		color: #24b24e;
+		color: #16a085;
 	}
 
 	.nav-white .nav-item .nav-link {
-		color: #24b24e;
+		color: #16a085;
 	}
 }
 
@@ -349,7 +349,7 @@ body {
 
 
 	.nav-white.past-main .nav-item .nav-link {
-		color: #24b24e;
+		color: #16a085;
 		font-weight: 500;
 	}
 
@@ -358,7 +358,7 @@ body {
 	}
 
 	.nav-white.past-main .navbar-brand {
-		color: #24b24e;
+		color: #16a085;
 	}
 
 	.nav-white.effect-main {
@@ -458,7 +458,7 @@ body {
 
 	.home-2 {
 		padding: 100px 0 50px 0 !important;
-		background: #24b24e;
+		background: #16a085;
 	}
 
 	.home-2 .hero-content {
@@ -566,9 +566,9 @@ body {
 
 	.btn-action {
 		padding: 10px 24px;
-		background: #24b24e;
+		background: #16a085;
 		border: 2px solid;
-		border-color: #24b24e;
+		border-color: #16a085;
 		border-radius: 100px;
 		box-shadow: 0 3px 15px 0 rgba(0, 0, 0, .25);
 		font-family: 'Montserrat';
@@ -585,8 +585,8 @@ body {
 
 	.btn-action:hover {
 		color: #FFFFFF;
-		border-color: #24b24e;
-		background: #24b24e;
+		border-color: #16a085;
+		background: #16a085;
 		-webkit-transform: translateY(-2px);
 		-moz-transform: translateY(-2px);
 		transform: translateY(-2px);
@@ -950,7 +950,7 @@ body {
 	.flex-split .btn-action {
 		margin-top: 15px;
 		margin-bottom: 20px;
-		color: #8696fb;
+		color: #16a085;
 		background-color: #FFF;
 		border-color: #FFF;
 	}
@@ -1007,7 +1007,7 @@ body {
 		font-family: 'Montserrat';
 		font-size: 14px;
 		font-weight: 400;
-		color: #387ed1;
+		color: #16a085;
 		text-transform: capitalize;
 		text-decoration: underline;
 		line-height: 1.2;
@@ -1166,14 +1166,14 @@ body {
 		font-weight: 400;
 		line-height: 1.6;
 		letter-spacing: 0.5px;
-		color: #627382;
+		color: #16a085;
 		margin-bottom: 10px;
 	}
 
 	.review-section .review-text h3 {
 		font-size: 18px;
 		font-weight: 500;
-		color: #364655;
+		color: #16a085;
 		margin-bottom: 10px;
 		margin-top: 20px;
 	}
@@ -1181,7 +1181,7 @@ body {
 	.review-section .review-text h4 {
 		font-size: 14px;
 		font-weight: 400;
-		color: #364655;
+		color: #16a085;
 	}
 
 	.review-single {
@@ -1369,6 +1369,14 @@ body {
 		width: 60px;
 		height: 60px;
 		margin: 0 auto;
+	}
+
+	.table-responsive {
+		font-family: 'Open Sans';
+	}
+
+	.table-table-striped {
+		font-family: 'Open Sans';
 	}
 
 	.table-left .pricing-details span,
@@ -1582,7 +1590,7 @@ body {
 		border-radius: 0 10px 10px 0;
 		margin: 0;
 		padding: 0 25px 0 25px;
-		background-color: #387ed1;
+		background-color: #16a085;
 		background-image: linear-gradient(90deg, #42b0ff, #4262ff);
 		font-family: 'Montserrat';
 		font-size: 14px;
@@ -1826,7 +1834,7 @@ body {
 	}
 
 	.form-control:focus {
-		border-color: #24b24e;
+		border-color: #16a085;
 		background: #F4F4F4;
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
@@ -1996,7 +2004,7 @@ body {
 
 	.footer {
 		padding: 50px 0 50px 0;
-		background: #24b24e;
+		background: #16a085;
 	}
 
 	.footer h2 {
