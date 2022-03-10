@@ -21,40 +21,149 @@
     <!-- Resource style -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" /> -->
+    <style>
+        table.table tr td { font-size: 12px; }
+
+        .label {
+        text-shadow: none !important;
+        font-size: 13px;
+        font-weight: 300;
+        padding: 3px 6px 3px 6px;
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        }
+        .label.label-sm {
+        font-size: 10px;
+        padding: 0px 4px 1px 4px;
+        }
+        h1 .label, h2 .label, h3 .label, h4 .label, h5 .label, h6 .label {
+        font-size: 75%;
+        }
+
+        .label-default {
+        background-color: #c6c6c6;
+        }
+        .label-default[href]:hover, .label-default[href]:focus {
+        background-color: #adadad;
+        }
+
+        .label-primary {
+        background-color: #428bca;
+        }
+        .label-primary[href]:hover, .label-primary[href]:focus {
+        background-color: #3071a9;
+        }
+
+        .label-success {
+        background-color: #45b6af;
+        }
+        .label-success[href]:hover, .label-success[href]:focus {
+        background-color: #37918b;
+        }
+
+        .label-info {
+        background-color: #22beef;
+        }
+        .label-info[href]:hover, .label-info[href]:focus {
+        background-color: #5aadf0;
+        }
+
+        .label-warning {
+        background-color: #ecbc29;
+        }
+        .label-warning[href]:hover, .label-warning[href]:focus {
+        background-color: #d0a112;
+        }
+
+        .label-danger {
+        background-color: #f3565d;
+        }
+        .label-danger[href]:hover, .label-danger[href]:focus {
+        background-color: #f0262f;
+        }
+        .alert{
+            font-size: 10px;
+            font-weight: bold;
+            font-style: italic;
+        }
+    </style>
   </head>
   <body data-spy="scroll">
     <div class="wrapper">
       <div class="container">
         <nav class="navbar navbar-expand-md navbar-light nav-white bg-light fixed-top">
           <div class="container">
-            <a class="navbar-brand" href="#">SUPER DILAN</a>
+            <a class="navbar-brand" href="index.html">SUPER DILAN</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ml-auto navbar-right">
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#main">Home</a>
+                  <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger" href="apbd.html">Apbd</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#services">Sp2d</a>
+                  <a class="nav-link js-scroll-trigger" href="sp2d.html">Sp2d</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger" href="#pricing">Kontak</a>
+                  <a class="nav-link js-scroll-trigger" href="kontak.html">Kontak</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="tentangkami.html">Tentang Kami</a>
                 </li>
               </ul>
             </div>
           </div>
         </nav>
       </div>
-      
+      <div id="main" class="main">
+        <div class="hero-home">
+          <div class="container">
+            <div class="row text-center">
+              <div class="col-sm-12">
+                <div class="intro-block">
+                  <h2 class="text-light">APBD </h2>
+                  <!--<p>Best in class big data software and analytics services will render your huge chunks into <br class="hidden-xs"> meaningful data. Try the demo now.</p>-->
+                </div>
+                <!-- <div class="subform wow fadeInDown" data-wow-delay="0.3s"><form id="signup" class="formee" action="assets/php/subscribe.php" method="post"><input type="text" /><input class="right inputnew" type="submit" title="Cari" value="Cari" /></form><div id="response"></div></div> -->
+                <!-- <div class="form-note"><p>14-day free trial and no credit card required.</p></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Client Section -->
+        <div class="client-section">
+          <div class="container text-center">
+            <div class="clients owl-carousel owl-theme">
+              <div class="single">
+                <a href="https://bojonegorokab.go.id/"><img src="assets/icons/portal-pemkab-bjn.png" alt="Client" /></a>
+              </div>
+              <div class="single">
+                <a href="https://bpkad.bojonegorokab.go.id/"><img src="assets/icons/website-bpkad.png" alt="Client" /></a>
+              </div>
+              <div class="single">
+                <a href="https://bpkad.bojonegorokab.go.id/transparansi"><img src="assets/icons/transparansi.png" alt="Client" /></a>
+              </div>
+              <div class="single">
+                <a href="https://bpkad.bojonegorokab.go.id/transparansi"><img src="assets/icons/dana-alokasi-desa.png" alt="Client" /></a>
+              </div>
+              <div class="single">
+                <a href="https://apbd.bpkad.id/apbd.php/tabel/item/2022"><img src="assets/icons/apbd-online.png" alt="Client" /></a>
+              </div>
+              <div class="single">
+                <a href="https://data.bojonegorokab.go.id/badan-pengelolaan-keuangan-dan-anggaran-daerah.html"><img src="assets/icons/satu-data.png" alt="Client" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
 
 <!-- Ringkasan Perda -->
   <div class="container-fluid">
-    <div class="card mb-4">
+    <div class="card mb-4 mt-4">
       <div class="card-header">
         <h4>Ringkasan PERDA</h4>
       </div>
