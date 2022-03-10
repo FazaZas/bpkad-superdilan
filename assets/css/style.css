@@ -372,7 +372,7 @@ body {
 
 	.hero-home {
 		padding: 150px 0 150px 0;
-		background: linear-gradient(to right, rgba(106, 17, 203, 0.95), rgba(37, 117, 252, 0.95)), url(../images/world-map.png) no-repeat center center;
+		background: linear-gradient(to right, rgba(106, 17, 203, 0.95), rgba(37, 117, 252, 0.95)), url(../images/b.png) no-repeat center center;
 		background: url(../images/b.jpg) no-repeat center center;
 		background-size: cover;
 	}
@@ -2508,3 +2508,4 @@ body {
 			font-size: 14px;
 		}
 	}
+}
