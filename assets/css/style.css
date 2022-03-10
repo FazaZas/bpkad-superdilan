@@ -596,6 +596,10 @@ body {
 		color: #FFFFFF;
 	}
 
+	.hr {
+		border-top: 1px solid rgb(255, 255, 255);
+	}
+
 
 	/*------------ Home 4 Styling Starts ----------------*/
 
@@ -1960,7 +1964,7 @@ body {
 	}
 
 	.card-body {
-		font-family: 'Open Sans';
+		font-family: "Montserrat";
 		flex: 1 1 auto;
 		min-height: 1px;
 		padding: 1.25rem;
